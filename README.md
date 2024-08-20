@@ -68,6 +68,7 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 # Acknowledgement
 - Special thanks to Hedera - The distributed ledger technology used to deploy and manage the smart contracts.
 - Thanks to AngelHack that manage the Hello Future Hackthon
+- Supra Oracles for providing the reliable oracle services used in this project. The price feeds from Supra Oracles
 - React - JavaScript library for building user interfaces.
 - Vite - Fast build tool for modern web projects.
 - Tailwind CSS - Utility-first CSS framework.
