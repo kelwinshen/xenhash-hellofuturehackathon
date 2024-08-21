@@ -1,0 +1,7 @@
+tasks:
+  - name: Setup
+    init: |
+      npm install
+    command: |
+      cp .env.SAMPLE .env
+      echo "Enter your Hedera network credentials in the .env file for testnet/mainnet. Then run the script main.js from the root folder."
