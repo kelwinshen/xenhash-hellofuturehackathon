@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer base {
+    html {
+      font-family: "Jost", sans-serif;
+    }
+
+    body {
+        background-color: #212529;
+    }
+  }
+
+  @layer utilities {
+    .no-spinners::-webkit-inner-spin-button,
+    .no-spinners::-webkit-outer-spin-button {
+      @apply appearance-none;
+      margin: 0;
+    }
+  
+    .no-spinners {
+      -moz-appearance: textfield; /* Firefox */
+    }
+  }
+
+
+@layer components {
+    .textHead {
+        @apply text-white text-[24px] sm:text-[52px] font-bold text-center;
+    }
+
+    .textHead-lg {
+        @apply text-white text-[32px] sm:text-[52px] font-bold text-center;
+    }
+
+    .textParagraph {
+        @apply text-white text-sm leading-8 sm:text-[16px] font-light;
+    }
+}
+
+
+.text-stroke {
+    text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black, 1px 1px 0 black;
+}
